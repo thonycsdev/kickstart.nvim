@@ -59,7 +59,7 @@ fork to your machine using one of the commands below, depending on your OS.
 
 > [!NOTE]
 > Your fork's URL will be something like this:
-> `https://github.com/<your_github_username>/kickstart.nvim.git`
+> `git clone git@github.com:thonycsdev/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim`
 
 You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
 too - it's ignored in the kickstart repo to make maintenance easier, but it's
